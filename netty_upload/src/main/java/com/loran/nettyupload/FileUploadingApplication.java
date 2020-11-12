@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  * @Author: luol
  * @Date: 2020/11/12 14:41
@@ -27,6 +28,7 @@ public class FileUploadingApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        System.out.println(port);
         ChannelFuture init = nettyServer.init(port);
         Runtime.getRuntime().addShutdownHook(new Thread(() -> nettyServer.close()));
         init.channel().closeFuture().syncUninterruptibly();
