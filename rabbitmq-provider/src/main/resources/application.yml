@@ -1,0 +1,25 @@
+server:
+  port: 8021
+spring:
+  #给项目来个名字
+  application:
+    name: rabbitmq-provider
+  #配置rabbitMq 服务器
+  rabbitmq:
+    host: 118.24.183.124
+    port: 5672
+    username: admin
+    password: admin123456
+    #虚拟host 可以不设置,使用server默认host
+    virtual-host: LoranHosts
+    #消息确认配置项
+
+    #确认消息已发送到交换机(Exchange)
+    publisher-confirm-type: correlated
+    #确认消息已发送到队列(Queue)
+    publisher-returns: true
+    # 配置中心地址
+    cloud:
+      nacos:
+        config:
+          server-addr: 192.168.102.9:8848 # 配置中心地址
