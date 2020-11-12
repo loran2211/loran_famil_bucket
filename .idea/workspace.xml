@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d0ffd4f-a4ee-455b-a826-a7fb51f164b6" name="Default Changelist" comment="" />
+    <list default="true" id="9d0ffd4f-a4ee-455b-a826-a7fb51f164b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty_basic/netty_basic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty_http/netty_http.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty_upload/netty_upload.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/rabbitmq-consumer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-provider/rabbitmq-provider.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,10 +36,34 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.FileUploadingApplication">
+    <configuration name="FileUploadingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="netty_upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loran.nettyupload.FileUploadingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoranMqConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loran.mq.LoranMqConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoranMqProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loran.mq.LoranMqProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605165218922</updated>
-      <workItem from="1605165223857" duration="65000" />
+      <workItem from="1605165223857" duration="475000" />
     </task>
     <servers />
   </component>
@@ -59,5 +91,9 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="461" y="202" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1605165288027" />
+    <state x="752" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605165699024">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="752" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1605165699024" />
   </component>
 </project>
